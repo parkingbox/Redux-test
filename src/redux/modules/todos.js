@@ -40,6 +40,7 @@ export const getTodoByID = (payload) => {
 // initial state
 const initialState = {
   todos: [
+    { id: 0 },
     {
       id: "1",
       title: "리액트",
